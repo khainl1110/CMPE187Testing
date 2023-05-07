@@ -3,6 +3,7 @@
 // Then paste this into a .js file and run with Node:
 // node <file>.js
 
+const similarity = require('string-similarity-js')
 const wdio = require('webdriverio');
 // const By = require("AppiumBy");
 
@@ -22,11 +23,15 @@ async function main () {
   // // tap on the skip button
   // await driver.touchAction({actions: 'tap', x: 538, y: 1992})
 
+  let textInput = "Let's get active " + Math.floor(Math.random() * 50);
+  let expectedTextOutput = "Let's try some exercises";
+
+  console.log(textInput);
   let el2 = await driver.$("//android.widget.LinearLayout[@content-desc=\"Continue conversation\"]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[1]");
   await el2.click();
   await driver.pause(5000);
   let el3 = await driver.$("~Reply or say help…");
-  await el3.setValue("Let's get active and practice mkoooindfu888899lness");
+  await el3.setValue(textInput);
   let el4 = await driver.$("~Send");
   await el4.click();
 
@@ -43,9 +48,28 @@ async function main () {
 
     //const elements1 = (await driver.$$('android.widget.TextView')).reverse().slice(0,5).reverse();
     const elements1 = (await driver.$$('android.widget.TextView')).slice(-7);
-    elements1.forEach(element => console.log(element.getText() ));
+    let bagOfTexts = null;
+    elements1.forEach(async (element) => {
+      let currentText = await element.getText()
+
+      //console.log("Text is " + currentText);
+
+      bagOfTexts += currentText
+    });
+
     await driver.pause(5000);
   
+    console.log("Text is " ,bagOfTexts);
+    
+    let position = bagOfTexts.indexOf(textInput);
+
+    bagOfTexts = bagOfTexts.slice(position + textInput.length, bagOfTexts.length);
+
+    console.log("Text after is ", bagOfTexts);
+
+    let score = similarity.stringSimilarity(bagOfTexts, expectedTextOutput);
+
+    console.log("Final score is ", score);
     await driver.deleteSession();
 
     

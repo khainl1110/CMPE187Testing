@@ -12,6 +12,7 @@
     "webdriverio": "^8.10.0"
   },
   "dependencies": {
+    "string-similarity-js": "^2.1.4",
     "wd": "^1.14.0"
   }
 }
