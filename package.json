@@ -12,7 +12,9 @@
     "webdriverio": "^8.10.0"
   },
   "dependencies": {
+    "job-pipe": "^1.0.3",
     "string-similarity-js": "^2.1.4",
-    "wd": "^1.14.0"
+    "wd": "^1.14.0",
+    "xlsx": "^0.18.5"
   }
 }

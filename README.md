@@ -10,4 +10,5 @@
   "platformName": "android",
   "appium:automationName": "UiAutomator2"
 }
-// test 2 is working
+
+Asynchornous method in js: https://www.youtube.com/watch?v=H-BiAoE4emk&t=411s
