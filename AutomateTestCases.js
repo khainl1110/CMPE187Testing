@@ -12,11 +12,12 @@ async function automateTest() {
     const file = reader.readFile('./temp.xlsx')
 
     let data = []
-    let indexStarts = 8
+    let indexStarts = 17
 
+    let testCaseName = "TestCases"
     similarityPassedThreshold = 0.25
 
-    const temp = reader.utils.sheet_to_json(file.Sheets["TestCases"])
+    const temp = reader.utils.sheet_to_json(file.Sheets[testCaseName])
     temp.map(async (row) =>{
         data.push(row)
         
@@ -81,6 +82,7 @@ async function runTest (textInput, expectedTextOutput, similarityPassedThreshold
 
         let hasToClick1 = bagOfTexts.includes("No, you misunderstood")
         let hasToClick2 = bagOfTexts.includes("No, let's keep talking")
+        let hasToClick3 = bagOfTexts.includes("You misunderstood")
 
         if(hasToClick1) {
             // await driver.touchAction({actions: 'tap', x: 738, y: 2064})
@@ -92,6 +94,14 @@ async function runTest (textInput, expectedTextOutput, similarityPassedThreshold
 
         if(hasToClick2) {
             await driver.$("~No, let's keep talking").click();
+            await driver.pause(5000);
+        }
+
+        if(hasToClick3) {
+            // await driver.touchAction({actions: 'tap', x: 738, y: 2064})
+            await driver.$("~You misunderstood").click();
+            await driver.pause(5000);
+            await driver.$("~Something else?").click();
             await driver.pause(5000);
         }
         

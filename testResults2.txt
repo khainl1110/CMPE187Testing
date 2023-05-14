@@ -1,0 +1,54 @@
+Input: I want an reframe thoughts to feel better as to Asian teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: What could make things even better?Nothing!
+Similarity score 0.19402985074626866
+Passed? false
+------------------
+Input: want to thoughts to feel better Asian teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: The learnings of a day can add to our bigger goals and eventually, our vision.Sometimes setting an intention can be powerful. Would you like to do that with me?Yes, sureWhat's an intention?Try something elseLet's keep talking
+Similarity score 0.3670886075949367
+Passed? true
+------------------
+Input: I want to reframe lack thoughts to feel better as an Asian teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: Unhelpful thoughts can sap our energy and affect the way we see things.Would you like to find a fresh perspective with me?That's rightNo, let's keep talking
+Similarity score 0.5182186234817814
+Passed? true
+------------------
+Input: I need to reframe thoughts to feel well as an Asiatic teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: Unhelpful thoughts can sap our energy and affect the way we see things.Would you like to find a fresh perspective with me?That's rightNo, let's keep talking
+Similarity score 0.5182186234817814
+Passed? true
+------------------
+Input: I want to kefkame thoughts to feel bettek as an Asian teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: I can help you talk through your thoughts and emotions.Would you like to do that right now?Yes!No, let's continueYou misunderstood
+Similarity score 0.5610859728506787
+Passed? true
+------------------
+Input: I want to #eBrame thoughts to feel netter as an qsian teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: I can help you talk through your thoughts and emotions.Would you like to do that right now?Yes!No, let's continueYou misunderstood
+Similarity score 0.5610859728506787
+Passed? true
+------------------
+Input: I want to crefra^me thoughts to fee@l better as an Asiadn teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: I can help you talk through your thoughts and emotions.Would you like to do that right now?Yes!No, let's continueYou misunderstood
+Similarity score 0.5610859728506787
+Passed? true
+------------------
+Input: I want to rerfaem tohughst to feel better as an Asina teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: You can explore the slider below for quick access to some of the features.You can also check your self-care kit for something that might help you.
+Similarity score 0.379746835443038
+Passed? true
+------------------
+Input: I want to reram thoughts to feel bettr as an Asin teen
+Expected output:  I understand you want to feel calmer. Would you like to try some reframe thoughts right now?
+Actual output: I can help you talk through your thoughts and emotions.Would you like to do that right now?Yes!No, let's continueYou misunderstood
+Similarity score 0.5610859728506787
+Passed? true
+------------------

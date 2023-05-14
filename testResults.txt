@@ -1,0 +1,110 @@
+Input: Give me some mindfulness exercises for Asian elders
+Expected output: Would you like to try some exercises right now?
+Actual output: I understand you want to feel calmer, Hhmm.👍 What would you like to try now, Hhmm?Would you like to see some tools I have, to help with this?Yes, show meNo, you misunderstood
+Similarity score 0.3181818181818182
+Passed? true
+------------------
+Input: I want to set some exercise routines as an Latino adult
+Expected output: Let's set up exercise routine together
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.2736842105263158
+Passed? true
+------------------
+Input: This exercise was helpful for me
+Expected output: Thanks for your feedback
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.125
+Passed? false
+------------------
+Input: This exercise was not helpful for me
+Expected output: I am sorry I will strive to do better
+Actual output: I sense you are finding this conversation unhelpful. Is that right, Hhmm?YesNot really, go on ✌
+Similarity score 0.16923076923076924
+Passed? false
+------------------
+Input: I want to reframe thoughts to feel better as a Latino kid
+Expected output: Would you like to try some reframe thoughts right now?
+Actual output: Unhelpful thoughts can sap our energy and affect the way we see things.Would you like to find a fresh perspective with me?That's rightNo, let's keep talking
+Similarity score 0.3942307692307692
+Passed? true
+------------------
+Input: As a Latino kid, I want to set schedule to reframe thoughts every Wednesday
+Expected output: Let's set up reframe thoughts schedule
+Actual output: Unhelpful thoughts can sap our energy and affect the way we see things.Would you like to find a fresh perspective with me?That's rightNo, let's keep talking
+Similarity score 0.2708333333333333
+Passed? true
+------------------
+Input: The reframe thought exercise was helpful
+Expected output: Thanks for your feedback
+Actual output: Unhelpful thoughts can sap our energy and affect the way we see things.Would you like to find a fresh perspective with me?That's rightNo, let's keep talking
+Similarity score 0.14606741573033707
+Passed? false
+------------------
+Input: The reframe thought exercise was not helpful
+Expected output: I am sorry I will strive to do better
+Actual output: Sorry, Hhmm... I understand this conversation isn't helping.Your feedback helps me learn and grow better at understanding you.
+Similarity score 0.2111801242236025
+Passed? false
+------------------
+Input: Give me some strength exercises for Asian elders
+Expected output: Would you like to try some exercises right now?
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.4623115577889447
+Passed? true
+------------------
+Input: I want to set some strength exercise routines as an Asian elder
+Expected output: Would you like to try some exercise routines right now?
+Actual output: You can explore the slider below for quick access to some of the features.You can also check your self-care kit for something that might help you.
+Similarity score 0.3015075376884422
+Passed? true
+------------------
+Input: This strength exercise was helpful for me
+Expected output: Thanks for your feedback
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.125
+Passed? false
+------------------
+Input: This strength exercise was not helpful for me
+Expected output: I am sorry I will strive to do better
+Actual output: I sense you are finding this conversation unhelpful. Is that right, Hhmm?YesNot really, go on ✌
+Similarity score 0.16923076923076924
+Passed? false
+------------------
+Input: Give me some durability exercises for unemployed adult
+Expected output: Would you like to try some exercises right now?
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.4623115577889447
+Passed? true
+------------------
+Input: I want to set routine to do
+mindfulness every Monday as an
+Latino adult
+Expected output: Would you like to set up some routines right now?
+Actual output: I understand you want to feel calmer, Hhmm.Would you like to see some tools I have, to help with this?Yes, show meNo, you misunderstood
+Similarity score 0.3516483516483517
+Passed? true
+------------------
+Input: This mindfulness exercise was helpful for me
+Expected output: Thanks for your feedback
+Actual output: I understand you want to feel calmer, Hhmm.Would you like to see some tools I have, to help with this?Yes, show meNo, you misunderstood
+Similarity score 0.12738853503184713
+Passed? false
+------------------
+Input: This mindfulness exercise was not helpful for me
+Expected output: I am sorry I will strive to do better
+Actual output: I sense you are finding this conversation unhelpful. Is that right, Hhmm?YesNot really, go on ✌
+Similarity score 0.16923076923076924
+Passed? false
+------------------
+Input: Tôi muốn tập thể dục
+Expected output: I can only respond in English
+Actual output: Okay. Your feedback could help me grow and improve.Yeah, sureMaybe laterGotta go
+Similarity score 0.11214953271028037
+Passed? false
+------------------
+Input: I want to do physical exercises instead
+Expected output: Let's change the topic for now
+Actual output: Light physical activity is a great way to feel energised. 🏃Would you like to try some quick exercises with me right now?Let's go! 💪No, you misunderstood
+Similarity score 0.17582417582417584
+Passed? false
+------------------
